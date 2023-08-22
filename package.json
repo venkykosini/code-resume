@@ -8,7 +8,7 @@
         "server": "nodemon --inspect start.js",
         "start-dev": "webpack-dev-server --config ./webpack.config.dev",
         "build": "webpack --config ./webpack.config.prod",
-        "deploy": "aws s3 sync dist/ s3://newnodefe",
+        "deploy": "aws s3 sync dist/ s3://newnodefe"
     },
     "author": "",
     "license": "ISC",
